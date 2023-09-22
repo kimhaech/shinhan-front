@@ -1,0 +1,64 @@
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -50%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+.container {
+
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* animation: fadeInUp 1s; */
+    height: 200px;
+}
+.img1, .img2, .img3, .img4, .img5 {
+    width: 174px;   
+    padding: 20px;
+    display: block;
+}
+.img1 {
+    position: absolute;
+    /* animation: fadeInUp 1s; */
+}
+
+.img2 {
+    position: absolute;
+    animation: fadeInUp 1s;
+}
+
+.img3 {
+    position: absolute;
+    animation: fadeInDown 2s;
+
+}
+
+.img4 {
+    position: absolute;
+    animation: fadeInDown 3s;
+    
+}
+
+.img5 {
+    position: absolute;
+    animation: fadeInDown 3s;
+    
+}

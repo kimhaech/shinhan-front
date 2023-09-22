@@ -1,0 +1,42 @@
+.container {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0 16px;
+    background-color: white;
+
+    border-bottom: solid 1px #E5E5E5;
+    z-index: 1;
+}
+
+.rightContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+    align-items: center;
+}
+
+.roundButton {
+    padding: 10px 14px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #0094FF, #0046FF 114.29%);
+
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+
+    width: fit-content;
+}
+
+.sharebtn {
+    /* border: 1px solid black; */
+    padding: 7px 10px;
+    background: #EAECEF;
+    border-radius: 50%;
+}
