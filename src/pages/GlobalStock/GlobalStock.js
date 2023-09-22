@@ -38,8 +38,8 @@ const GlobalStock = () => {
     <>
       <TopNav />
       <div className={styles.tabMenuContainer}>
-        <button onClick={() => navigate("/")}>국내 주식</button>
-        <button onClick={() => navigate("/global")}>해외 주식</button>
+        <button onClick={() => navigate("/")}>Korea</button>
+        <button onClick={() => navigate("/global")}>Global</button>
       </div>
 
       <div className={styles.container}>
